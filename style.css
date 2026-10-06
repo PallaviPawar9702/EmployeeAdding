@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.container {
+  padding: 30px;
+}
+.form {
+  display: flex;
+  gap: 25px;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+input {
+  width: 450px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+button {
+  margin-top: 15px;
+  padding: 7px 25px;
+  cursor: pointer;
+}
+#error {
+  color: red;
+}
+#message {
+  margin-top: 15px;
+}
+.employee {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.employee-data {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+.employee button {
+  margin-top: 0;
+  border-radius: 25px;
+}
